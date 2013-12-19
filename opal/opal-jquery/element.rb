@@ -78,6 +78,8 @@ class Element < `dom_class`
   alias_native :html=, :html
   alias_native :remove_attr, :removeAttr
   alias_native :remove_class, :removeClass
+  alias_native :replace_all, :replaceAll
+  alias_native :replace_with, :replaceWith
   alias_native :text=, :text
   alias_native :toggle_class, :toggleClass
   alias_native :value=, :val
